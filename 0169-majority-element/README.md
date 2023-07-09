@@ -1,5 +1,10 @@
 # 解題思路
-摩爾投票算法
+利用摩爾投票算法
+- 算法在局部變量中定義一個序列元素(m)和一個計數器(i)，初始化的情況下計數器為0；
+- 算法依次掃描序列中的元素，當處理元素x的時候，如果計數器為0，那麼將x賦值給m，然後將計數器(i)設置為1；
+- 如果計數器不為0，那麼將序列元素m和x比較，如果相等，那麼計數器加1，如果不等，那麼計數器減1。
+- 處理之後，最後存儲的序列元素(m)，就是這個序列中最多的元素。（如果不確定是否存儲的元素m是最多的元素，還可以進行第二遍掃描判斷是否為最多的元素）
+
 <h2><a href="https://leetcode.com/problems/majority-element">169. Majority Element</a></h2><h3>Easy</h3><hr><p>Given an array <code>nums</code> of size <code>n</code>, return <em>the majority element</em>.</p>
 
 <p>The majority element is the element that appears more than <code>&lfloor;n / 2&rfloor;</code> times. You may assume that the majority element always exists in the array.</p>

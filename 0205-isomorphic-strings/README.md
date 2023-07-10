@@ -1,3 +1,7 @@
+# 解題思路
+利用 hash table 紀錄字母對應的數字
+將字串轉換成數字即可比對
+
 <h2><a href="https://leetcode.com/problems/isomorphic-strings">205. Isomorphic Strings</a></h2><h3>Easy</h3><hr><p>Given two strings <code>s</code> and <code>t</code>, <em>determine if they are isomorphic</em>.</p>
 
 <p>Two strings <code>s</code> and <code>t</code> are isomorphic if the characters in <code>s</code> can be replaced to get <code>t</code>.</p>

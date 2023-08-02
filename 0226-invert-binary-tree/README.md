@@ -1,3 +1,5 @@
+# 解題思路
+利用遞迴
 <h2><a href="https://leetcode.com/problems/invert-binary-tree">226. Invert Binary Tree</a></h2><h3>Easy</h3><hr><p>Given the <code>root</code> of a binary tree, invert the tree, and return <em>its root</em>.</p>
 
 <p>&nbsp;</p>
